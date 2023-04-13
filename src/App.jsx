@@ -12,7 +12,7 @@ function App() {
         <div className='content'>
           <section>
             <table>
-              <thead>
+              <thead className="principal">
                 <tr>
                   <th>Produto</th>
                   <th>Preço</th>
@@ -21,7 +21,7 @@ function App() {
                   <th>-</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className="dados">
                 <TableRow />
               </tbody>
             </table>

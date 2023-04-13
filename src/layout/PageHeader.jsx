@@ -2,7 +2,7 @@ import React from 'react';
 
 const PageHeader = () => {
   return (
-    <header>
+    <header className="header">
       <span>
         Carrinho de compras
       </span>
