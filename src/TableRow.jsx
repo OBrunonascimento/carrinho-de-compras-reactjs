@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from './assets/index.module.css'
+import styles from './assets/index.module.css';
+
 
 const TableRow = () => {
   return (
