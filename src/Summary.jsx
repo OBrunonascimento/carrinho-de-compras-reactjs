@@ -1,11 +1,12 @@
 import React from 'react';
+import styles from './assets/index.module.css'
 
 const Summary = () => {
   return (
     <>
-      <div className='box'>
+      <div className={styles.box}>
         <header>Resumo da compra</header>
-        <div className='info'>
+        <div className={styles.info}>
           <div>
             <span>Sub-total</span>
             <span>R$ 418</span>

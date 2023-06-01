@@ -1,20 +1,21 @@
 import React from 'react';
+import styles from './assets/index.module.css'
 
 const TableRow = () => {
   return (
     <tr>
       <td>
-        <div className='product'>
+        <div className={styles.product}>
           <img src='https://picsum.photos/100/120' alt='' />
           <div className='info'>
-            <div className='name'>Nome do produto</div>
-            <div className='category'>Categoria</div>
+            <div className={styles.name}>Nome do produto</div>
+            <div className={styles.category}>Categoria</div>
           </div>
         </div>
       </td>
       <td>R$ 120</td>
       <td>
-        <div className='qty'>
+        <div className={styles.qty}>
           <button>
             <i className='bx bx-minus'></i>
           </button>
@@ -26,7 +27,7 @@ const TableRow = () => {
       </td>
       <td>R$ 240</td>
       <td>
-        <button className='remove'>
+        <button className={styles.remove}>
           <i className='bx bx-x'></i>
         </button>
       </td>
